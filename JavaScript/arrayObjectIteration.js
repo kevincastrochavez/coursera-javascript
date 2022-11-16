@@ -1,37 +1,40 @@
-// Task 1
-const dairy = [
-  'cheese',
-  'sour cream',
-  'milk',
-  'yogurt',
-  'ice cream',
-  'milkshake',
-];
+// // Task 1
+// const dairy = [
+//   'cheese',
+//   'sour cream',
+//   'milk',
+//   'yogurt',
+//   'ice cream',
+//   'milkshake',
+// ];
 
-function logDairy() {
-  for (const item of dairy) {
-    console.log(item);
-  }
-}
+// function logDairy() {
+//   for (const item of dairy) {
+//     console.log(item);
+//   }
+// }
 
-// Task 2
-const animal = {
-  canJump: true,
-};
+// // Task 2
+// const animal = {
+//   canJump: true,
+// };
 
-const bird = Object.create(animal);
-bird.canFly = true;
-bird.hasFeathers = true;
+// const bird = Object.create(animal);
+// bird.canFly = true;
+// bird.hasFeathers = true;
 
-function birdCan() {
-  for (const [key, value] of Object.entries(bird)) {
-    console.log(`${key}: ${value}`);
-  }
-}
+// function birdCan() {
+//   for (const [key, value] of Object.entries(bird)) {
+//     console.log(`${key}: ${value}`);
+//   }
+// }
 
-// Task 3
-function animalCan() {
-  for (const property in bird) {
-    console.log(`${property}: ${bird[property]}`);
-  }
-}
+// // Task 3
+// function animalCan() {
+//   for (const property in bird) {
+//     console.log(`${property}: ${bird[property]}`);
+//   }
+// }
+
+const letter = 'a';
+letter = 'b';

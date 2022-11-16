@@ -1,0 +1,22 @@
+{
+  "name": "coursera",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kevincastrochavez/coursera-javascript.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kevincastrochavez/coursera-javascript/issues"
+  },
+  "homepage": "https://github.com/kevincastrochavez/coursera-javascript#readme",
+  "devDependencies": {
+    "jest": "^29.3.1"
+  }
+}
